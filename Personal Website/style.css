@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color to light baby blue */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Light baby blue color */
+}
+
+
+header {
+    background-color: #0f3363;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the sections */
+section {
+    margin-top: 20px;
+}
+
+/* Style the unordered lists within sections */
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Style the GitHub link */
+.github-link {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #0f3363;
+    padding: 10px;
+    color: #039ad6;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for GitHub link */
+.github-link:hover {
+    background-color: #0f3363;
+    color: #fff;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+/* Style the skills list */
+#skills ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Background decoration for the sides */
+body::before, body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    background-color: #0f3363;
+    z-index: -1;
+}
+
+body::before {
+    left: 0;
+}
+
+body::after {
+    right: 0;
+}
+
